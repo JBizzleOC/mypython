@@ -1,0 +1,6 @@
+name = "John Bright"
+age = 40
+place = California
+string = "Hello, my name is {}.  I am {} years old and live in {}."
+output = string.format(name,age,place)
+print(output)
