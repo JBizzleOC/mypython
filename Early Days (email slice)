@@ -1,5 +1,0 @@
-email = input("Hello. My email address is: ")
-user = email[:email.index("@")]
-domain = email[email.index("@")+1:]
-output = ("Your user name is {} and your domain is {}").format(user,domain)
-print(output)
